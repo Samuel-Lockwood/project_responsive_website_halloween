@@ -1,0 +1,44 @@
+.app__party_img{
+    position: relative;
+}
+
+.party_star_1,
+.party_star_2{
+    width: 40px;
+    position: absolute;
+}
+
+.party_star_1{
+    left: -2rem;
+    transform: rotate(15deg);
+    animation: animate-star-1 infinite 5s ease-in-out;
+}
+
+.party_star_2{
+    right: -1rem;
+    bottom: 5rem;
+    transform: rotate(-15deg);
+    animation: animate-star-2 infinite 5s ease-in-out;
+}
+
+@media screen and (max-width: 768px){
+    .app__party_content{
+        text-align: center;
+    }
+
+    .app__party_content p{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .app__party_img .party_star_1{
+        top: -3rem;
+        left: .5rem;
+    }
+
+    .app__party_img .party_star_2{
+        bottom: 1rem;
+    }
+}

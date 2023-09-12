@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Butcherman&family=Poppins:wght@400;500;600;700&display=swap");
+:root{
+    --first-color: hsl(22, 72%, 50%);
+    --text-color: hsl(22, 4%, 75%);
+    --text-color-light: hsl(22, 4%, 55%);
+    --body-color: hsl(22, 8%, 6%);
+    --container-color: hsl(22, 8%, 7%);
+
+    --poppins: 'Poppins', sans-serif;
+    --butcherman: 'Butcherman', cursive;
+
+    --biggest-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    border: none;
+    outline: none;
+}
+
+html,body{
+    height: auto;
+}
+
+body{
+    background-color: var(--body-color);
+    background-image: url("./assets/shape-bg.png");
+    background-position: center;
+    background-size: contain;
+    min-height: 100vh;
+    color: #fff;
+    font-family: var(--poppins);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+.slide-bottom {
+    -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  @-webkit-keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(-25%);
+              transform: translateY(-25%);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  
+  @keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(-25%);
+              transform: translateY(-25%);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }

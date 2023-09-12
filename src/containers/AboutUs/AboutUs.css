@@ -1,0 +1,44 @@
+.app__aboutUs{
+    position: relative;
+}
+
+.app__aboutUs .shape__small{
+    top: 2rem;
+    right: 1rem;
+}
+
+.app__aboutUs .shape__big{
+    bottom: 0;
+    left: -1.5rem;
+}
+
+@media screen and (max-width: 768px){
+    .app__aboutUs_content{
+        
+        text-align: center;
+    }
+
+    .app__aboutUs .shape__big{
+        width: 250px;
+        left: -10rem;
+    }
+
+    .app__aboutUs .shape__small{
+        right: -3rem;
+    }
+
+    .app__aboutUs_content p{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .app__aboutUs .shape__big{
+        left: -10rem;
+    }
+
+    .app__aboutUs .shape__small{
+        right: -5rem;
+    }
+}

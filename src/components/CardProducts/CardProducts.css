@@ -1,0 +1,41 @@
+.app__cardProducts{
+    padding: 2rem;
+    background-color: var(--container-color);
+    border-radius: 1rem;
+    position: relative;
+    text-align: center;
+}
+
+.app__card_Products_img img{
+    width: 100px;
+    position: absolute;
+    inset: 0;
+    margin: 0 auto;
+    top: -2.5rem;
+}
+
+.app__card_Products_title{
+    color: #fff;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+.app__card_Products_price{
+    margin-top: .2rem;
+    font-weight: 600;
+    color: var(--first-color);
+}
+
+.app__card_Products_btn{
+    display: inline-block;
+    padding: .1rem 1rem;
+    background-color: var(--first-color);
+    border-radius: 1rem;
+    margin-top: .5rem;
+    cursor: pointer;
+}
+
+.app__cardProducts:hover .app__card_Products_img img{
+    transform: translateY(-15px);
+    transition: .3s;
+}
