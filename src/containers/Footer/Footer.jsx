@@ -46,13 +46,14 @@ const Footer = () => {
         </div>
 
       </div>
-        <div className="app__footer_copy">
-          <p className="p__poppins">&#169; Copyright Samuel Kaio. All rights reserved</p>
-        </div>
-
+      
         <div className="app__footer_img">
           <img src={images.f_Tree1} alt="tree" className="footer_tree_1" />
           <img src={images.f_Tree2} alt="tree" className="footer_tree_2" />
+        </div>
+
+        <div className="app__footer_copy">
+          <p className="p__poppins">&#169; Copyright Samuel Kaio. All rights reserved</p>
         </div>
     </div>
   )
