@@ -1,7 +1,5 @@
 # Halloween Ladding Page
 
-### [inspiration from]("https://www.youtube.com/@Bedimcode")
-
 ## Esta é uma página de destino de Halloween criada para mostrar minhas habilidades front-end.
 
 ### Tecnologias Utilizadas:
