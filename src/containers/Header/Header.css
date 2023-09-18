@@ -3,7 +3,7 @@
     justify-content: center;
     position: relative;
     align-items: center;
-    margin-top: 8rem;
+    min-height: 100vh;
 }
 
 .app__header_content{
